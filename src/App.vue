@@ -1,9 +1,11 @@
 <script setup lang="ts">
+import MHeader from '@components/MHeader.vue';
 </script>
 
 <template>
 <div class="app">
-  Mangokk
+  <MHeader />
+  <router-view />
 </div>
 </template>
 

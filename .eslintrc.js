@@ -22,7 +22,11 @@ module.exports = {
   },
   plugins: ['vue', '@typescript-eslint', 'prettier'],
   rules: {
-    'quotes': [1, 'single']
+    'quotes': [1, 'single'],
+    // Vue
+    'vue/multi-word-component-names': ['none', {
+      'ignores': []
+    }]
   },
   globals: {
     defineProps: 'readonly',
