@@ -24,7 +24,7 @@ module.exports = {
   rules: {
     'quotes': [1, 'single'],
     // Vue
-    'vue/multi-word-component-names': ['none', {
+    'vue/multi-word-component-names': ['off', {
       'ignores': []
     }]
   },
