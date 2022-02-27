@@ -17,11 +17,11 @@ const routes = [
     path: '/bookmark',
     component: BookmarkList
   }
-]
+];
 
 const router = VueRouter.createRouter({
   history: VueRouter.createWebHashHistory(),
   routes
-})
+});
 
 export default router;
