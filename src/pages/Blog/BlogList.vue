@@ -2,10 +2,7 @@
 </script>
 
 <template>
-  <div class="blog-list">
-    blog-list
+  <div>
+    Blog
   </div>
 </template>
-
-<style lang="scss">
-</style>

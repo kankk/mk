@@ -3,6 +3,7 @@ import * as VueRouter from 'vue-router';
 import Home from '@pages/Home.vue';
 import BlogList from '@pages/Blog/BlogList.vue';
 import BookmarkList from '@pages/Bookmark/BookmarkList.vue';
+import DocsList from '@pages/Docs/DocsList.vue';
 
 const routes = [
   {
@@ -16,6 +17,10 @@ const routes = [
   {
     path: '/bookmark',
     component: BookmarkList
+  },
+  {
+    path: '/docs',
+    component: DocsList,
   }
 ];
 

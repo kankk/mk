@@ -1,50 +1,68 @@
 <script setup lang="ts">
-import { ref,  } from 'vue';
+import { ref } from 'vue';
+import { useRouter, useRoute } from 'vue-router';
+
+interface Link {
+  name: string;
+  path: string;
+}
+
 const links = ref([
   { name: 'Blog', path: '/blog' },
   { name: 'Bookmark', path: '/bookmark' },
+  { name: 'Docs', path: '/docs' }
 ]);
+
+const router = useRouter();
+const route = useRoute();
+
+const handleLogoClick = () => {
+  router.push({ path: '/'});
+};
+
+const handleLinkClick = (link: Link) => {
+  router.push({ path: link.path });
+};
+
+const getLinkClass = (link: Link) => {
+  const cls = ['mr-6', 'last:mr-0',  'hover:text-black/85', 'hover:cursor-pointer'];
+  if (link.path === route.path) {
+    cls.push('text-black/85 underline underline-offset-8');
+  } else {
+    cls.push('text-black/45');
+  }
+  return cls;
+};
+
 </script>
 
 <template>
-  <div class="m-header">
-    <div class="m-header-left">
-      Mangokk
+  <div class="flex justify-between items-center px-3">
+    <!-- Left -->
+    <div>
+      <div
+        class="logo hover:cursor-pointer"
+        @click="handleLogoClick"
+      >
+        Mangokk
+      </div>
     </div>
-    <div class="m-header-right">
-      <div class="m-header-links">
+    <!-- Center -->
+    <div>
+      <div class="flex items-center">
         <div
           v-for="link of links"
           :key="link.name"
-          class="m-header-link"
+          :class="getLinkClass(link)"
+          @click="handleLinkClick(link)"
         >
           {{ link.name }}
         </div>
       </div>
     </div>
+    <!-- Right -->
+    <div>
+      Icons
+    </div>
   </div>
 </template>
-
-<style lang="scss">
-.m-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 48px;
-  padding: 0 24px;
-  .m-header-left {
-
-  }
-  .m-header-right {
-    .m-header-links {
-      display: flex;
-      align-items: center;
-      .m-header-link {
-        &:not(:last-child) {
-          margin-right: 12px;
-        }
-      }
-    }
-  }
-}
-</style>

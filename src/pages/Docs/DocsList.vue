@@ -3,6 +3,6 @@
 
 <template>
   <div>
-    Bookmark
+    Docs
   </div>
 </template>
