@@ -10,7 +10,6 @@ module.exports = {
     'eslint:recommended',
     'plugin:vue/vue3-recommended',
     'plugin:@typescript-eslint/recommended',
-    'prettier',
   ],
   parserOptions: {
     ecmaVersion: 12,
@@ -20,13 +19,12 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['vue', '@typescript-eslint', 'prettier'],
+  plugins: ['vue', '@typescript-eslint'],
   rules: {
     'quotes': [1, 'single'],
+    'semi': ['error', 'always'],
     // Vue
-    'vue/multi-word-component-names': ['off', {
-      'ignores': []
-    }]
+    'vue/multi-word-component-names': ['off', { 'ignores': [] }]
   },
   globals: {
     defineProps: 'readonly',

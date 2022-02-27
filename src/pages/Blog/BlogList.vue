@@ -2,9 +2,9 @@
 </script>
 
 <template>
-<div class="blog-list">
-  blog-list
-</div>
+  <div class="blog-list">
+    blog-list
+  </div>
 </template>
 
 <style lang="scss">
