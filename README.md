@@ -1,6 +1,6 @@
-# MK
+# Mangokk
 
-website about mangokk
+Githua Pages: [kankk.github.io](https://kankk.github.io)
 
 ## Package
 
@@ -9,3 +9,4 @@ website about mangokk
 * Vue-router
 * Pinia
 * tailwindcss
+* Github Actions
