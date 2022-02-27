@@ -6,6 +6,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
+    "d:github": "sh deploy-github.sh",
     "lint": "eslint src --fix --ext .ts,.tsx,.vue,.js,.jsx"
   },
   "dependencies": {
