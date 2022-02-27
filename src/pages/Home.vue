@@ -14,6 +14,6 @@ const { count, countDisplay } = storeToRefs(mainStore);
     <button @click="mainStore.increment">
       Pinia.Main.increment
     </button>
-    <p>Test for Github Pages</p>
+    <p>✅ Test for Github Pages</p>
   </div>
 </template>
