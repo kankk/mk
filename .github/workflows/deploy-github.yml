@@ -10,10 +10,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Install and Build
-        run: |
-          npm ci
-          npm run build
+      # - name: Install and Build
+      #   run: |
+      #     npm ci
+      #     npm run build
       # 生成静态文件
       - name: Build
         run: npm install && npm run build
@@ -23,6 +23,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          repository-name: kankk/kankk.github.io.git
+          repository-name: kankk/kankk.github.io
           BRANCH: master
           FOLDER: dist
