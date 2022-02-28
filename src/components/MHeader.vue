@@ -1,17 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import { useRouter, useRoute } from 'vue-router';
+import { IHeaderLink, HeaderLinks} from '@utils/const'; 
 
-interface Link {
-  name: string;
-  path: string;
-}
-
-const links = ref([
-  { name: 'Blog', path: '/blog' },
-  { name: 'Bookmark', path: '/bookmark' },
-  { name: 'Docs', path: '/docs' }
-]);
+const links = ref(HeaderLinks);
 
 const router = useRouter();
 const route = useRoute();
@@ -20,11 +12,11 @@ const handleLogoClick = () => {
   router.push({ path: '/'});
 };
 
-const handleLinkClick = (link: Link) => {
+const handleLinkClick = (link: IHeaderLink) => {
   router.push({ path: link.path });
 };
 
-const getLinkClass = (link: Link) => {
+const getLinkClass = (link: IHeaderLink) => {
   const cls = ['mr-6', 'last:mr-0',  'hover:text-black/85', 'hover:cursor-pointer'];
   if (link.path === route.path) {
     cls.push('text-black/85 underline underline-offset-8');
