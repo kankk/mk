@@ -9,4 +9,5 @@ Githua Pages: [kankk.github.io](https://kankk.github.io)
 * Vue-router
 * Pinia
 * tailwindcss
+* iconify: [https://icon-sets.iconify.design/](https://icon-sets.iconify.design/)
 * Github Actions
