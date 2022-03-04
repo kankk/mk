@@ -19,7 +19,7 @@ export const HeaderLinks = [
   // { name: 'Docs', path: '/docs', component: () => defineAsyncComponent(() => import('@pages/Docs/DocsList.vue'))},
   // { name: 'Tools', path: '/tools', component: () => defineAsyncComponent(() => import('@pages/Toolbox/ToolList.vue'))},
   { name: 'Bookmark', path: '/bookmark', component: BookmarkList },
-  { name: 'Docs', path: '/docs', DocsList },
+  { name: 'Docs', path: '/docs', component: DocsList },
   { name: 'Tools', path: '/tools', component: ToolList },
 ] as Array<IHeaderLink>;
 
