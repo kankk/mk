@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { DocsGroups } from '@utils/const';
+import { DocsGroups } from '@data/docs';
 import { Icon } from '@iconify/vue';
 import { ICON } from '@utils/icons';
 
@@ -11,7 +11,7 @@ const presetLinkMap = {
 };
 const presetLinks = computed(() => Object.keys(presetLinkMap) as Array<keyof typeof presetLinkMap>);
 
-const handleLinkClick = (link: string) => window.open(link);
+const handleLinkClick = (url: string) => window.open(url);
 </script>
 
 <template>
