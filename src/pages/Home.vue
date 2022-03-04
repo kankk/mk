@@ -13,7 +13,7 @@
     <div>Pinia.Main.getter.countDisplay: {{ countDisplay }}</div>
     <button @click="mainStore.increment">
       Pinia.Main.increment
-    </button>
-    <p>✅ Test for Github Pages</p> -->
+    </button> -->
+    <p>✅ Actions for Github Pages</p>
   </div>
 </template>

@@ -6,8 +6,8 @@ Githua Pages: [kankk.github.io](https://kankk.github.io)
 
 * Vue3
 * Vite
-* Vue-router
+* Vue Router
 * Pinia
-* tailwindcss
-* iconify: [https://icon-sets.iconify.design/](https://icon-sets.iconify.design/)
+* Tailwind CSS
+* Iconify: [https://icon-sets.iconify.design/](https://icon-sets.iconify.design/)
 * Github Actions
