@@ -28,17 +28,18 @@ export const DocsGroups = [
         links: {
           chinese: 'https://v3.cn.vuejs.org/guide',
           english: 'https://vuejs.org/guide/introduction.html',
-          github: 'https://github.com/vuejs/core'
-        }
+          github: 'https://github.com/vuejs/core',
+        },
       },
       {
-        name: 'Vue Router v4.x',
+        name: 'Vue Router',
+        desc: 'v4.x',
         icon: ICON.VSCODE_VUE,
         links: {
           chinese: 'https://router.vuejs.org/zh/guide',
           english: 'https://router.vuejs.org/guide',
-          github: 'https://github.com/vuejs/router'
-        }
+          github: 'https://github.com/vuejs/router',
+        },
       },
       {
         name: 'Pinia',
@@ -46,9 +47,9 @@ export const DocsGroups = [
         links: {
           chinese: '',
           english: 'https://pinia.vuejs.org/getting-started.html',
-          github: 'https://github.com/vuejs/pinia'
-        }
-      }
+          github: 'https://github.com/vuejs/pinia',
+        },
+      },
     ],
   },
   {
@@ -60,17 +61,18 @@ export const DocsGroups = [
         links: {
           chinese: 'https://cn.vuejs.org/v2/guide',
           english: 'https://v2.vuejs.org/v2/guide/index.html',
-          github: 'https://github.com/vuejs/vue'
-        }
+          github: 'https://github.com/vuejs/vue',
+        },
       },
       {
-        name: 'Vue Router v3.x',
+        name: 'Vue Router',
+        desc: 'v3.x',
         icon: ICON.VSCODE_VUE,
         links: {
           chinese: 'https://v3.router.vuejs.org/zh/guide',
           english: 'https://v3.router.vuejs.org/guide',
-          github: 'https://github.com/vuejs/vue-router'
-        }
+          github: 'https://github.com/vuejs/vue-router',
+        },
       },
       {
         name: 'Vuex',
@@ -78,8 +80,8 @@ export const DocsGroups = [
         links: {
           chinese: 'https://vuex.vuejs.org/zh/guide',
           english: 'https://vuex.vuejs.org/guide/index.html',
-          github: 'https://github.com/vuejs/vuex'
-        }
+          github: 'https://github.com/vuejs/vuex',
+        },
       },
     ],
   },
@@ -92,10 +94,10 @@ export const DocsGroups = [
         links: {
           chinese: 'https://www.tailwindcss.cn/docs',
           english: 'https://tailwindcss.com/docs',
-          github: 'https://github.com/tailwindlabs/tailwindcss'
-        }
-      }
-    ]
+          github: 'https://github.com/tailwindlabs/tailwindcss',
+        },
+      },
+    ],
   },
   {
     name: 'Node',
@@ -106,9 +108,42 @@ export const DocsGroups = [
         links: {
           chinese: 'https://docs.nestjs.cn/8/firststeps',
           english: 'https://docs.nestjs.com',
-          github: 'https://github.com/nestjs/nest'
-        }
+          github: 'https://github.com/nestjs/nest',
+        },
+      },
+    ],
+  },
+];
+
+export const BookmarkGroups = [
+  {
+    name: 'Icons',
+    links: [
+      {
+        name: 'Iconify',
+        desc: '',
+        url: 'https://icon-sets.iconify.design/',
+      },
+      {
+        name: 'Font Awesome',
+        desc: '6.0.0',
+        url: 'https://fontawesome.com/icons'
+      },
+      {
+        name: 'Font Awesome',
+        desc: '4.7.0 (中文)',
+        url: 'http://www.fontawesome.com.cn/faicons/'
       }
-    ]
-  }
+    ],
+  },
+  {
+    name: 'Colors',
+    links: [
+      {
+        name: 'Nippon Colors',
+        desc: '日本の伝統色',
+        url: 'https://nipponcolors.com/',
+      },
+    ],
+  },
 ];
