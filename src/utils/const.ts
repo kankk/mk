@@ -2,9 +2,9 @@ import { Component, defineAsyncComponent } from 'vue';
 import { ICON } from '@utils/icons';
 
 // import BlogList from '@pages/Blog/BlogList.vue';
-// import BookmarkList from '@pages/Bookmark/BookmarkList.vue';
-// import DocsList from '@pages/Docs/DocsList.vue';
-// import ToolList from '@pages/Toolbox/ToolList.vue';
+import BookmarkList from '@pages/Bookmark/BookmarkList.vue';
+import DocsList from '@pages/Docs/DocsList.vue';
+import ToolList from '@pages/Toolbox/ToolList.vue';
 
 // 顶部导航居中链接
 export interface IHeaderLink {
@@ -15,11 +15,14 @@ export interface IHeaderLink {
 
 export const HeaderLinks = [
   // { name: 'Blog', path: '/blog', component: BlogList },
-  { name: 'Bookmark', path: '/bookmark', component: () => defineAsyncComponent(() => import('@pages/Bookmark/BookmarkList.vue'))},
-  { name: 'Docs', path: '/docs', component: () => defineAsyncComponent(() => import('@pages/Docs/DocsList.vue'))},
-  { name: 'Tools', path: '/tools', component: () => defineAsyncComponent(() => import('@pages/Toolbox/ToolList.vue'))},
+  // { name: 'Bookmark', path: '/bookmark', component: () => defineAsyncComponent(() => import('@pages/Bookmark/BookmarkList.vue'))},
+  // { name: 'Docs', path: '/docs', component: () => defineAsyncComponent(() => import('@pages/Docs/DocsList.vue'))},
+  // { name: 'Tools', path: '/tools', component: () => defineAsyncComponent(() => import('@pages/Toolbox/ToolList.vue'))},
+  { name: 'Bookmark', path: '/bookmark', component: BookmarkList },
+  { name: 'Docs', path: '/docs', DocsList },
+  { name: 'Tools', path: '/tools', component: ToolList },
 ] as Array<IHeaderLink>;
 
 export const HeaderRightIcons = [
-  { icon: ICON.GITHUB, url: 'https://github.com/kankk' }
+  { icon: ICON.GITHUB, url: 'https://github.com/kankk' },
 ];
