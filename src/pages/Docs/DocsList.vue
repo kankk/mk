@@ -27,7 +27,7 @@ const handleLinkClick = (link: string) => window.open(link);
       <div
         v-for="doc of group.docs"
         :key="doc.name"
-        class="flex justify-between items-center px-4 py-2 hover:bg-slate-100"
+        class="flex justify-between items-center px-4 py-1 hover:bg-slate-100"
       >
         <div class="flex items-center">
           <Icon

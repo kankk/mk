@@ -20,26 +20,67 @@ export const HeaderLinks = [
 // 文档链接
 export const DocsGroups = [
   {
-    name: 'Vue',
+    name: 'Vue 3',
     docs: [
       {
-        name: 'Vue3',
+        name: 'Vue',
         icon: ICON.VSCODE_VUE,
         links: {
           chinese: 'https://v3.cn.vuejs.org/guide',
-          english: '',
+          english: 'https://vuejs.org/guide/introduction.html',
           github: 'https://github.com/vuejs/core'
         }
       },
       {
-        name: 'Vue2',
+        name: 'Vue Router v4.x',
+        icon: ICON.VSCODE_VUE,
+        links: {
+          chinese: 'https://router.vuejs.org/zh/guide',
+          english: 'https://router.vuejs.org/guide',
+          github: 'https://github.com/vuejs/router'
+        }
+      },
+      {
+        name: 'Pinia',
+        icon: ICON.VSCODE_VUE,
+        links: {
+          chinese: '',
+          english: 'https://pinia.vuejs.org/getting-started.html',
+          github: 'https://github.com/vuejs/pinia'
+        }
+      }
+    ],
+  },
+  {
+    name: 'Vue 2',
+    docs: [
+      {
+        name: 'Vue',
         icon: ICON.VSCODE_VUE,
         links: {
           chinese: 'https://cn.vuejs.org/v2/guide',
-          english: '',
+          english: 'https://v2.vuejs.org/v2/guide/index.html',
           github: 'https://github.com/vuejs/vue'
         }
-      }
+      },
+      {
+        name: 'Vue Router v3.x',
+        icon: ICON.VSCODE_VUE,
+        links: {
+          chinese: 'https://v3.router.vuejs.org/zh/guide',
+          english: 'https://v3.router.vuejs.org/guide',
+          github: 'https://github.com/vuejs/vue-router'
+        }
+      },
+      {
+        name: 'Vuex',
+        icon: ICON.VSCODE_VUE,
+        links: {
+          chinese: 'https://vuex.vuejs.org/zh/guide',
+          english: 'https://vuex.vuejs.org/guide/index.html',
+          github: 'https://github.com/vuejs/vuex'
+        }
+      },
     ],
   },
   {
