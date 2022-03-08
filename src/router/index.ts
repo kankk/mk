@@ -9,11 +9,17 @@ const routes = [
     component: Home
   },
   // 顶部导航居中链接
-  ...HeaderLinks.map(link => ({
-    path: link.path,
-    component: link.component
-  }))
+  ...HeaderLinks.map(item => {
+    const opt: VueRouter.RouteRecordRaw = {
+      path: item.path,
+      component: item.component
+    };
+    if (Array.isArray(item.children)) opt.children = item.children;
+    return opt;
+  }),
 ];
+
+console.log(routes);
 
 const router = VueRouter.createRouter({
   history: VueRouter.createWebHashHistory(),

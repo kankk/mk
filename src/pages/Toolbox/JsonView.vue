@@ -2,7 +2,5 @@
 </script>
 
 <template>
-  <div>
-    <div>ToolList</div>
-  </div>
+  <div>JsonView</div>
 </template>

@@ -13,20 +13,20 @@ const handleLogoClick = () => {
   router.push({ path: '/' });
 };
 
-const handleLinkClick = (link: IHeaderLink) => {
-  router.push({ path: link.path });
+const handleLinkClick = (path: string) => {
+  router.push({ path });
 };
 
 const handleIconClick = (url: string) => window.open(url);
 
-const getLinkClass = (link: IHeaderLink) => {
+const getLinkClass = (path: string) => {
   const cls = [
     'mr-6',
     'last:mr-0',
     'hover:text-black/85',
     'hover:cursor-pointer',
   ];
-  if (link.path === route.path) {
+  if (path === route.path) {
     cls.push('text-black/85 underline underline-offset-8');
   } else {
     cls.push('text-black/45');
@@ -52,8 +52,8 @@ const getLinkClass = (link: IHeaderLink) => {
         <div
           v-for="link of links"
           :key="link.name"
-          :class="getLinkClass(link)"
-          @click="handleLinkClick(link)"
+          :class="getLinkClass(link.path)"
+          @click="handleLinkClick(link.path)"
         >
           {{ link.name }}
         </div>
