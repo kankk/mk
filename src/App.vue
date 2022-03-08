@@ -7,7 +7,7 @@ import MFooter from '@components/MFooter.vue';
   <div class="app min-h-screen text-black/85">
     <MHeader />
     <div class="flex justify-center items-stretch">
-      <router-view class="w-content py-8" />
+      <router-view class="w-normal py-8" />
     </div>
     <MFooter />
   </div>

@@ -9,12 +9,13 @@ const handleMenuClick = (path: string) => router.push({ path });
 
 const getMenuClass = (path: string) => {
   const cls = [
+    'rounded-sm',
     'hover:text-black/85',
     'hover:cursor-pointer',
-    'py-2'
+    'py-1 px-4 mb-2'
   ];
   if (path === route.path) {
-    cls.push('text-black/85');
+    cls.push('text-black/85 bg-slate-100');
   } else {
     cls.push('text-black/45');
   }
@@ -23,8 +24,8 @@ const getMenuClass = (path: string) => {
 </script>
 
 <template>
-  <div class="toolbox">
-    <div class="toolbox-menu">
+  <div class="toolbox w-large">
+    <div>
       <div
         v-for="tool of Tools"
         :key="tool.path"
@@ -34,7 +35,9 @@ const getMenuClass = (path: string) => {
         {{ tool.name }}
       </div>
     </div>
-    <router-view class="toolbox-content" />
+    <router-view
+      class="px-4"
+    />
   </div>
 </template>
 
@@ -42,6 +45,6 @@ const getMenuClass = (path: string) => {
 <style lang="scss">
 .toolbox {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 200px 1fr;
 }
 </style>

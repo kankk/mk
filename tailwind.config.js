@@ -6,7 +6,11 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        content: '800px',
+        mini: '500px',
+        small: '600px',
+        normal: '800px',
+        large: '1200px',
+        full: '100%'
       },
       opacity: {
         '45': '0.45',

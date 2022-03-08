@@ -8,7 +8,7 @@
 </script>
 
 <template>
-  <div class="home">
+  <div>
     <!-- <div>Pinia.Main.count: {{ count }}</div>
     <div>Pinia.Main.getter.countDisplay: {{ countDisplay }}</div>
     <button @click="mainStore.increment">

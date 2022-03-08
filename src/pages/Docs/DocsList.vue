@@ -15,7 +15,7 @@ const handleLinkClick = (url: string) => window.open(url);
 </script>
 
 <template>
-  <div class="px-10">
+  <div class="w-small">
     <div
       v-for="group of DocsGroups"
       :key="group.name"

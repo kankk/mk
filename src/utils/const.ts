@@ -19,7 +19,7 @@ export interface IHeaderLink {
 }
 
 export const Tools = [
-  { name: 'ToolList', path: '/tools', component: ToolList },
+  { name: '工具栏', path: '/tools', component: ToolList },
   { name: 'JsonParse', path: '/tools/json-parse', component: JsonParse },
   { name: 'JsonView', path: '/tools/json-view', component: JsonView }
 ];
