@@ -7,7 +7,6 @@ import DocsList from '@pages/Docs/DocsList.vue';
 
 import Toolbox from '@pages/Toolbox/Toolbox.vue';
 import ToolList from '@pages/Toolbox/ToolList.vue';
-import JsonParse from '@pages/Toolbox/JsonParse.vue';
 import JsonView from '@pages/Toolbox/JsonView.vue';
 
 // 顶部导航居中链接
@@ -20,7 +19,6 @@ export interface IHeaderLink {
 
 export const Tools = [
   { name: '工具栏', path: '/tools', component: ToolList },
-  { name: 'JsonParse', path: '/tools/json-parse', component: JsonParse },
   { name: 'JsonView', path: '/tools/json-view', component: JsonView }
 ];
 
