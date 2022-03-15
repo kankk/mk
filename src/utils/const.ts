@@ -1,4 +1,4 @@
-import { Component, defineAsyncComponent } from 'vue';
+import { Component } from 'vue';
 import { ICON } from '@utils/icons';
 
 // import BlogList from '@pages/Blog/BlogList.vue';
