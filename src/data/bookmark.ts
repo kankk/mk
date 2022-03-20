@@ -18,6 +18,11 @@ export const BookmarkGroups = [
         desc: '4.7.0 (中文)',
         url: 'http://www.fontawesome.com.cn/faicons/',
       },
+      {
+        name: 'Shields.io',
+        desc: '',
+        url: 'https://shields.io/',
+      },
     ],
   },
   {
