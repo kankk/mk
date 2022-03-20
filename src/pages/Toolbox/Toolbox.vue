@@ -12,7 +12,7 @@ const getMenuClass = (path: string) => {
     'rounded-sm',
     'hover:text-black/85',
     'hover:cursor-pointer',
-    'py-1 px-4 mb-2'
+    'py-1 px-4 mb-2',
   ];
   if (path === route.path) {
     cls.push('text-black/85 bg-slate-100');
@@ -40,7 +40,6 @@ const getMenuClass = (path: string) => {
     />
   </div>
 </template>
-
 
 <style lang="scss">
 .toolbox {

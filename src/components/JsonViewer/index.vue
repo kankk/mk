@@ -1,15 +1,16 @@
 <script setup lang="tsx">
-import { ref, toRefs,onMounted } from 'vue';
-import { isPlainObject, get } from 'lodash';
+import { toRefs } from 'vue';
 import World from './World';
+
 const props = defineProps({
   data: {
     type: Object,
-    default: () => ({})
-  }
+    default: () => ({}),
+  },
 });
 
 const { data } = toRefs(props);
+console.log(data.value);
 
 const Hello = () => <div>Vue 3</div>;
 

@@ -6,13 +6,13 @@ import { HeaderLinks } from '@utils/const';
 const routes = [
   {
     path: '/',
-    component: Home
+    component: Home,
   },
   // 顶部导航居中链接
-  ...HeaderLinks.map(item => {
+  ...HeaderLinks.map((item) => {
     const opt: VueRouter.RouteRecordRaw = {
       path: item.path,
-      component: item.component
+      component: item.component,
     };
     if (Array.isArray(item.children)) opt.children = item.children;
     return opt;
@@ -21,7 +21,7 @@ const routes = [
 
 const router = VueRouter.createRouter({
   history: VueRouter.createWebHashHistory(),
-  routes
+  routes,
 });
 
 export default router;

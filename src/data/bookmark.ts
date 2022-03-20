@@ -11,13 +11,13 @@ export const BookmarkGroups = [
       {
         name: 'Font Awesome',
         desc: '6.0.0',
-        url: 'https://fontawesome.com/icons'
+        url: 'https://fontawesome.com/icons',
       },
       {
         name: 'Font Awesome',
         desc: '4.7.0 (中文)',
-        url: 'http://www.fontawesome.com.cn/faicons/'
-      }
+        url: 'http://www.fontawesome.com.cn/faicons/',
+      },
     ],
   },
   {

@@ -61,7 +61,7 @@ const handleGetInputEnter = () => {
     </div>
 
     <div>
-      JSON: 
+      JSON:
       <JsonViewer :data="json" />
     </div>
   </div>

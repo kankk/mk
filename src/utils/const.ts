@@ -19,7 +19,7 @@ export interface IHeaderLink {
 
 export const Tools = [
   { name: '工具栏', path: '/tools', component: ToolList },
-  { name: 'JsonView', path: '/tools/json-view', component: JsonView }
+  { name: 'JsonView', path: '/tools/json-view', component: JsonView },
 ];
 
 export const HeaderLinks = [
@@ -29,7 +29,9 @@ export const HeaderLinks = [
   // { name: 'Tools', path: '/tools', component: () => defineAsyncComponent(() => import('@pages/Toolbox/Toolbox.vue'))},
   { name: 'Bookmark', path: '/bookmark', component: BookmarkList },
   { name: 'Docs', path: '/docs', component: DocsList },
-  { name: 'Tools', path: '/tools', component: Toolbox, children: Tools.map(item => ({ path: item.path, component: item.component})) },
+  {
+    name: 'Tools', path: '/tools', component: Toolbox, children: Tools.map((item) => ({ path: item.path, component: item.component })),
+  },
 ] as Array<IHeaderLink>;
 
 export const HeaderRightIcons = [

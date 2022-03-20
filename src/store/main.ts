@@ -11,6 +11,6 @@ export const useMainStore = defineStore({
   actions: {
     increment() {
       this.count += 1;
-    }
-  }
+    },
+  },
 });
