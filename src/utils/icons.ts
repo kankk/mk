@@ -1,5 +1,5 @@
 // iconify
-export enum ICONIFY {
+export enum ICON {
   VSCODE_VUE = 'vscode-icons:file-type-vue',
   VSCODE_NEST = 'vscode-icons:file-type-nestjs',
   VSCODE_TAILWIND = 'vscode-icons:file-type-tailwind',
