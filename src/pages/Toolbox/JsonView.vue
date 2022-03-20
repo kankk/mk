@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import { cloneDeep, get } from 'lodash';
-import JsonViewer from '@components/JsonViewer.vue';
+import JsonViewer from '@components/JsonViewer/index.vue';
 
 const demo = {
   name: 'Qihua Jian',

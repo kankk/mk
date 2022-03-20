@@ -13,4 +13,4 @@ export const useMainStore = defineStore({
       this.count += 1;
     }
   }
-})
+});

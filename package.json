@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite && npm run dev:chrome",
+    "dev:chrome": "open -a 'Google Chrome' http://localhost:3000/",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "d:github": "sh deploy-github.sh",
@@ -22,6 +23,7 @@
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "@typescript-eslint/parser": "^5.12.1",
     "@vitejs/plugin-vue": "^2.2.0",
+    "@vitejs/plugin-vue-jsx": "^1.3.8",
     "autoprefixer": "^10.4.2",
     "eslint": "^8.10.0",
     "eslint-plugin-vue": "^8.5.0",
