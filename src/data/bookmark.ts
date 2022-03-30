@@ -10,12 +10,12 @@ export const BookmarkGroups = [
       },
       {
         name: 'Font Awesome',
-        desc: '6.0.0',
+        desc: '6.0.0 [EN]',
         url: 'https://fontawesome.com/icons',
       },
       {
         name: 'Font Awesome',
-        desc: '4.7.0 (中文)',
+        desc: '4.7.0 [中]',
         url: 'http://www.fontawesome.com.cn/faicons/',
       },
       {
@@ -37,6 +37,21 @@ export const BookmarkGroups = [
         name: 'Nippon Colors',
         desc: '日本の伝統色',
         url: 'https://nipponcolors.com/',
+      },
+    ],
+  },
+  {
+    name: 'Tools',
+    links: [
+      {
+        name: 'Codepen',
+        desc: '代码片段交换 html + css + js',
+        url: 'https://codepen.io/pen/',
+      },
+      {
+        name: 'Ray.so',
+        desc: '生成代码片段的截图',
+        url: 'https://ray.so/',
       },
     ],
   },
