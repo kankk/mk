@@ -14,6 +14,6 @@
     <button @click="mainStore.increment">
       Pinia.Main.increment
     </button> -->
-    <p>✅ Actions for Github Pages</p>
+    <p>Thanks</p>
   </div>
 </template>

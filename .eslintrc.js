@@ -32,7 +32,7 @@ module.exports = {
     '@typescript-eslint/no-shadow': ['error'],
     'no-param-reassign': 'off',
     'no-console': 'off',
-    'max-len': 'off',
+    'max-len': ['error', { code: 150 }],
     'import/no-extraneous-dependencies': 'off',
     'import/extensions': 'off',
     'import/no-unresolved': 'off',
