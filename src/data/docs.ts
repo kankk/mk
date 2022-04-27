@@ -9,7 +9,7 @@ export const DocsGroups = [
         name: 'Vue',
         icon: ICON.VSCODE_VUE,
         links: {
-          chinese: 'https://v3.cn.vuejs.org/guide',
+          chinese: 'https://staging-cn.vuejs.org/guide/introduction.html',
           english: 'https://vuejs.org/guide/introduction.html',
           github: 'https://github.com/vuejs/core',
         },

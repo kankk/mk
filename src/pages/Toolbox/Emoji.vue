@@ -35,7 +35,7 @@ const handleCopyContent = (content = '') => {
 <template>
   <div class="flex flex-col items-center">
     <table class="w-4/5 border-collapse">
-      <tr class="bg-slate-200">
+      <tr class="bg-gray-200">
         <th class="border border-gray-300">
           Emoji
         </th>

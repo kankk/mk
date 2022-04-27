@@ -19,6 +19,11 @@ export const BookmarkGroups = [
         url: 'http://www.fontawesome.com.cn/faicons/',
       },
       {
+        name: 'Icons8',
+        desc: '免费的图标和插图',
+        url: 'https://icons8.com/',
+      },
+      {
         name: 'Shields.io',
         desc: '',
         url: 'https://shields.io/',
@@ -43,6 +48,11 @@ export const BookmarkGroups = [
   {
     name: 'Tools',
     links: [
+      {
+        name: 'Regexper',
+        desc: '可视化的正则表达式',
+        url: 'https://regexper.com/',
+      },
       {
         name: 'Codepen',
         desc: '代码片段交换 html + css + js',

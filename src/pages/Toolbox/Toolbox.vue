@@ -15,7 +15,7 @@ const getMenuClass = (path: string) => {
     'py-1 px-4 mb-2',
   ];
   if (path === route.path) {
-    cls.push('text-black/85 bg-slate-100');
+    cls.push('text-black/85 bg-gray-100');
   } else {
     cls.push('text-black/45');
   }

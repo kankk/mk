@@ -21,13 +21,13 @@ const handleLinkClick = (url: string) => window.open(url);
       :key="group.name"
       class="mb-4"
     >
-      <div class="text-xl font-bold text-slate-900 px-4">
+      <div class="text-xl font-bold text-gray-900 px-4">
         {{ group.name }}
       </div>
       <div
         v-for="doc of group.docs"
         :key="doc.name"
-        class="flex justify-between items-center px-4 py-1 my-2 hover:bg-slate-100"
+        class="flex justify-between items-center px-4 py-1 my-2 hover:bg-gray-100"
       >
         <div class="flex items-center">
           <Icon
@@ -36,12 +36,12 @@ const handleLinkClick = (url: string) => window.open(url);
             width="24"
             height="24"
           />
-          <div class="text-slate-600 font-medium">
+          <div class="text-gray-600 font-medium">
             {{ doc.name }}
           </div>
           <template v-if="!!doc.desc">
-            <span class="mx-2 text-slate-500">-</span>
-            <span class="text-slate-500">{{ doc.desc }}</span>
+            <span class="mx-2 text-gray-500">-</span>
+            <span class="text-gray-500">{{ doc.desc }}</span>
           </template>
         </div>
         <div class="flex justify-between items-center">
