@@ -9,5 +9,5 @@ export enum ICON {
   OUTLINE_CHINESE = 'icon-park-outline:chinese',
   OUTLINE_ENGLISH = 'icon-park-outline:english',
   CHINESE = 'uil:letter-chinese-a',
-  ENGLISH = 'uil:letter-english-a'
+  ENGLISH = 'uil:letter-english-a',
 }

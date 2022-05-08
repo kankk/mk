@@ -39,10 +39,7 @@ const getLinkClass = (path: string) => {
   <div class="flex justify-between items-center px-8">
     <!-- Left -->
     <div>
-      <div
-        class="logo hover:cursor-pointer"
-        @click="handleLogoClick"
-      >
+      <div class="logo hover:cursor-pointer" @click="handleLogoClick">
         Mangokk
       </div>
     </div>
@@ -61,11 +58,7 @@ const getLinkClass = (path: string) => {
     </div>
     <!-- Right -->
     <div class="flex items-center">
-      <div
-        v-for="icon of HeaderRightIcons"
-        :key="icon.url"
-        class="px-3"
-      >
+      <div v-for="icon of HeaderRightIcons" :key="icon.url" class="px-3">
         <Icon
           class="opacity-40 hover:opacity-100 hover:cursor-pointer"
           :icon="icon.icon"

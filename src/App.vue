@@ -14,8 +14,8 @@ import MFooter from '@components/MFooter.vue';
 </template>
 
 <style lang="scss">
-@import url("@styles/tailwind.scss");
-@import url("@styles/global.scss");
+@import url('@styles/tailwind.scss');
+@import url('@styles/global.scss');
 
 .app {
   display: grid;

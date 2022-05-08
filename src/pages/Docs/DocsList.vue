@@ -6,11 +6,7 @@ import DocsItem from './DocsItem.vue';
 <template>
   <div class="w-small">
     <div class="grid grid-cols-4 gap-x-3 gap-y-3">
-      <DocsItem
-        v-for="doc of Docs"
-        :key="doc.name"
-        :doc="doc"
-      />
+      <DocsItem v-for="doc of Docs" :key="doc.name" :doc="doc" />
     </div>
   </div>
 </template>

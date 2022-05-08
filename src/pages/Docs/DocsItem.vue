@@ -26,11 +26,7 @@ const handleLinkClick = (url: string) => window.open(url);
   <div
     class="flex flex-col items-center border border-gray-200 rounded pt-4 pb-2"
   >
-    <Icon
-      :icon="doc.icon"
-      width="24"
-      height="24"
-    />
+    <Icon :icon="doc.icon" width="24" height="24" />
     <div class="pt-2 pb-1 text-gray-600 font-medium">
       {{ doc.name }}
     </div>

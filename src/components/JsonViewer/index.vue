@@ -13,7 +13,6 @@ const { data } = toRefs(props);
 console.log(data.value);
 
 const Hello = () => <div>Vue 3</div>;
-
 </script>
 
 <template>

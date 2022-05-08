@@ -35,9 +35,7 @@ const getMenuClass = (path: string) => {
         {{ tool.name }}
       </div>
     </div>
-    <router-view
-      class="px-4"
-    />
+    <router-view class="px-4" />
   </div>
 </template>
 

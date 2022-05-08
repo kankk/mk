@@ -53,12 +53,10 @@ const handleGetInputEnter = () => {
         v-model="getInputString"
         class="w-full px-2 py-1 border-2 rounded-sm outline-none text-sm border-blue-700"
         @keyup.enter="handleGetInputEnter"
-      >
+      />
     </div>
 
-    <div class="py-2">
-      Output: {{ outputString }}
-    </div>
+    <div class="py-2">Output: {{ outputString }}</div>
 
     <div>
       JSON:

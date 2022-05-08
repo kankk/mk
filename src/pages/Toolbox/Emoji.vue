@@ -29,27 +29,20 @@ const emojiList = [
 const handleCopyContent = (content = '') => {
   copy(content);
 };
-
 </script>
 
 <template>
   <div class="flex flex-col items-center">
     <table class="w-4/5 border-collapse">
       <tr class="bg-gray-200">
-        <th class="border border-gray-300">
-          Emoji
-        </th>
-        <th class="border border-gray-300">
-          代码
-        </th>
-        <th class="border border-gray-300">
-          描述
-        </th>
+        <th class="border border-gray-300">Emoji</th>
+        <th class="border border-gray-300">代码</th>
+        <th class="border border-gray-300">描述</th>
       </tr>
       <tr
         v-for="(emoji, index) of emojiList"
         :key="emoji.code"
-        :class="{ 'bg-gray-50': index % 2 === 0}"
+        :class="{ 'bg-gray-50': index % 2 === 0 }"
       >
         <td class="text-center border border-gray-300">
           <span

@@ -7,7 +7,7 @@ export interface IDocsItem {
     chinese?: string;
     english?: string;
     github?: string;
-  }
+  };
 }
 
 // 文档
