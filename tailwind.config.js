@@ -6,14 +6,14 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        mini: '500px',
-        small: '600px',
+        mini: '600px',
+        small: '700px',
         normal: '800px',
         large: '1200px',
       },
       opacity: {
-        '45': '0.45',
-        '85': '0.85',
+        45: '0.45',
+        85: '0.85',
       },
     },
   },

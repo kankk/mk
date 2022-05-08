@@ -60,16 +60,20 @@ const getLinkClass = (path: string) => {
       </div>
     </div>
     <!-- Right -->
-    <div>
-      <Icon
+    <div class="flex items-center">
+      <div
         v-for="icon of HeaderRightIcons"
         :key="icon.url"
-        class="mr-4 last:mr-0 opacity-40 hover:opacity-100 hover:cursor-pointer"
-        :icon="icon.icon"
-        width="20"
-        height="20"
-        @click="handleIconClick(icon.url)"
-      />
+        class="px-3"
+      >
+        <Icon
+          class="opacity-40 hover:opacity-100 hover:cursor-pointer"
+          :icon="icon.icon"
+          width="20"
+          height="20"
+          @click="handleIconClick(icon.url)"
+        />
+      </div>
     </div>
   </div>
 </template>

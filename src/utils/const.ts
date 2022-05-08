@@ -52,5 +52,7 @@ export const HeaderLinks = [
 ] as Array<IHeaderLink>;
 
 export const HeaderRightIcons = [
+  { icon: ICON.INSTAGRAM, url: 'https://www.instagram.com/jianqihua/' },
+  { icon: ICON.TWITTER, url: 'https://twitter.com/kankeika5' },
   { icon: ICON.GITHUB, url: 'https://github.com/kankk' },
 ];

@@ -9,6 +9,11 @@ export const BookmarkGroups = [
         url: 'https://icon-sets.iconify.design/',
       },
       {
+        name: 'Akar Icons',
+        desc: '',
+        url: 'https://akaricons.com/',
+      },
+      {
         name: 'Font Awesome',
         desc: '6.0.0 [EN]',
         url: 'https://fontawesome.com/icons',
