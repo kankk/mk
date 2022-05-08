@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite && npm run dev:chrome",
-    "dev:chrome": "open -a 'Google Chrome' http://localhost:3000/",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit",
     "d:github": "sh deploy-github.sh",
     "lint": "eslint src --fix --ext .ts,.tsx,.vue,.js,.jsx"
   },

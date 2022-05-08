@@ -38,7 +38,7 @@ const handleLinkClick = (url: string) => window.open(url);
         @click="handleLinkClick(value)"
       >
         <Icon
-          :icon="presetLinkMap[key]"
+          :icon="presetLinkMap[key as keyof typeof presetLinkMap]"
           class="opacity-40 hover:opacity-100 hover:cursor-pointer"
           width="16"
           height="16"
