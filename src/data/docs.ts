@@ -60,6 +60,13 @@ export const Docs: IDocsItem[] = [
     },
   },
   {
+    name: 'VuePress 2.x',
+    icon: ICON.VUE,
+    links: {
+      chinese: 'https://v2.vuepress.vuejs.org/zh/guide/getting-started.html',
+    },
+  },
+  {
     name: 'Vue2',
     icon: ICON.VUE,
     links: {
