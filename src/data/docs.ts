@@ -14,7 +14,7 @@ export interface IDocsItem {
 export const Docs: IDocsItem[] = [
   {
     name: 'Vue3',
-    icon: ICON.VSCODE_VUE,
+    icon: ICON.VUE,
     links: {
       chinese: 'https://staging-cn.vuejs.org/guide/introduction.html',
       english: 'https://vuejs.org/guide/introduction.html',
@@ -23,7 +23,7 @@ export const Docs: IDocsItem[] = [
   },
   {
     name: 'VueRouter 4.x',
-    icon: ICON.VSCODE_VUE,
+    icon: ICON.VUE,
     links: {
       chinese: 'https://router.vuejs.org/zh/guide',
       github: 'https://github.com/vuejs/router',
@@ -31,15 +31,23 @@ export const Docs: IDocsItem[] = [
   },
   {
     name: 'Pinia',
-    icon: ICON.VSCODE_VUE,
+    icon: ICON.VUE,
     links: {
       english: 'https://pinia.vuejs.org/getting-started.html',
       github: 'https://github.com/vuejs/pinia',
     },
   },
   {
+    name: 'Vitest',
+    icon: ICON.VITEST,
+    links: {
+      chinese: 'https://cn.vitest.dev/',
+      github: 'https://github.com/vitest-dev/vitest',
+    },
+  },
+  {
     name: 'Vue2',
-    icon: ICON.VSCODE_VUE,
+    icon: ICON.VUE,
     links: {
       chinese: 'https://cn.vuejs.org/v2/guide',
       github: 'https://github.com/vuejs/vue',
@@ -47,7 +55,7 @@ export const Docs: IDocsItem[] = [
   },
   {
     name: 'VueRouter 3.x',
-    icon: ICON.VSCODE_VUE,
+    icon: ICON.VUE,
     links: {
       chinese: 'https://v3.router.vuejs.org/zh/guide',
       github: 'https://github.com/vuejs/vue-router',
@@ -55,7 +63,7 @@ export const Docs: IDocsItem[] = [
   },
   {
     name: 'Vuex',
-    icon: ICON.VSCODE_VUE,
+    icon: ICON.VUE,
     links: {
       chinese: 'https://vuex.vuejs.org/zh/guide',
       github: 'https://github.com/vuejs/vuex',
@@ -63,7 +71,7 @@ export const Docs: IDocsItem[] = [
   },
   {
     name: 'Tailwind',
-    icon: ICON.VSCODE_TAILWIND,
+    icon: ICON.TAILWIND,
     links: {
       english: 'https://tailwindcss.com/docs',
       github: 'https://github.com/tailwindlabs/tailwindcss',
@@ -71,7 +79,7 @@ export const Docs: IDocsItem[] = [
   },
   {
     name: 'Nest',
-    icon: ICON.VSCODE_NEST,
+    icon: ICON.NEST,
     links: {
       chinese: 'https://docs.nestjs.cn/8/firststeps',
       english: 'https://docs.nestjs.com',

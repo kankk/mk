@@ -1,8 +1,9 @@
 // iconify
 export const ICON = {
-  VSCODE_VUE: 'vscode-icons:file-type-vue',
-  VSCODE_NEST: 'vscode-icons:file-type-nestjs',
-  VSCODE_TAILWIND: 'vscode-icons:file-type-tailwind',
+  VUE: 'vscode-icons:file-type-vue',
+  NEST: 'vscode-icons:file-type-nestjs',
+  TAILWIND: 'vscode-icons:file-type-tailwind',
+  VITEST: 'logos:vitest',
   GITHUB: 'akar-icons:github-fill',
   TWITTER: 'akar-icons:twitter-fill',
   INSTAGRAM: 'akar-icons:instagram-fill',
