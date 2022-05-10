@@ -38,11 +38,25 @@ export const Docs: IDocsItem[] = [
     },
   },
   {
+    name: 'Vite',
+    icon: ICON.VITE,
+    links: {
+      chinese: 'https://cn.vitejs.dev/guide/',
+    },
+  },
+  {
     name: 'Vitest',
     icon: ICON.VITEST,
     links: {
       chinese: 'https://cn.vitest.dev/',
       github: 'https://github.com/vitest-dev/vitest',
+    },
+  },
+  {
+    name: 'VitePress',
+    icon: ICON.VITE,
+    links: {
+      english: 'https://vitepress.vuejs.org/',
     },
   },
   {
