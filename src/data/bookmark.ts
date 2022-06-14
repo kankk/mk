@@ -24,6 +24,11 @@ export const BookmarkGroups = [
         url: 'http://www.fontawesome.com.cn/faicons/',
       },
       {
+        name: 'Icônes',
+        desc: '',
+        url: 'https://icones.js.org/',
+      },
+      {
         name: 'Icons8',
         desc: '免费的图标和插图',
         url: 'https://icons8.com/',
